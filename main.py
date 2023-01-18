@@ -1,9 +1,10 @@
 def is_prime(n: int) -> bool:
     """
     Return True if n is prime, False otherwise.
-    args:
+
+    Args:
         n: int
-    returns:
+    Returns:
         bool
     """
     pass
