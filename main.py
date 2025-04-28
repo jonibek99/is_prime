@@ -7,7 +7,8 @@ def is_prime(n):
     Returns:
         bool
     """
-    if n%n!=0 and n%n==1:
-        return True
-    return False
+    if not n%2!=0:
+        return False
+
+    return True
 print(is_prime(int(input())))
