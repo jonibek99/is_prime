@@ -1,4 +1,4 @@
-def is_prime(n: int) -> bool:
+def is_prime(n):
     """
     Return True if n is prime, False otherwise.
 
@@ -7,4 +7,7 @@ def is_prime(n: int) -> bool:
     Returns:
         bool
     """
-    pass
+    if n%n!=0 and n%n==1:
+        return True
+    return False
+print(is_prime(int(input())))
